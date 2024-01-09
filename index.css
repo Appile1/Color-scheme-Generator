@@ -21,7 +21,6 @@ main {
 
   width: 50%;
   padding: 0.5em;
-  padding-bottom: 500px;
   display: flex;
   justify-content: space-around;
 }
@@ -31,12 +30,19 @@ h2 {
   font-weight: bold;
   color: white;
 }
-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  vertical-align: middle;
-}
+
 main select {
   font-size: 1em;
+}
+
+.color-show {
+  height: 500px;
+  width: 140px;
+  background-color: black;
+  margin-left: 1em;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
