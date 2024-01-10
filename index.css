@@ -46,3 +46,17 @@ main select {
   justify-content: center;
   align-items: center;
 }
+
+.hex {
+  font-weight: bold;
+  font-size: 1.3em;
+  color: white;
+  padding: 0.5em;
+  text-align: center;
+}
+
+div .color-show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
